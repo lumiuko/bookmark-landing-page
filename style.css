@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.menu-open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.bg-pattern {
+  background-image: url('/section-pattern.svg');
+  background-repeat: no-repeat;
+  background-size: 577px 203px;
+}
+
+.hero-background {
+  background-position: right -272px top 52px;
+}
+
+.section-background {
+  background-position: left -270px top 35px;
+}
+
+.tab {
+  position: relative;
+}
+
+.tab-selected {
+  color: #242a45;
+}
+
+.tab-selected::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 143px;
+  height: 4px;
+  background-color: #fa5959;
+}
+
+.card-bottom {
+  border-top: 4px solid;
+  border-image: url('/bg-dots.svg') 4;
+}
+
+.accordion-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 500ms;
+}
+
+.accordion-content > div {
+  overflow: hidden;
+}
+
+.tab-active {
+  display: flex;
+}
+
+.accordion-open + .accordion-content {
+  grid-template-rows: 1fr;
+}
+
+.accordion-icon {
+  transition: color 0.2s, transform 0.2s;
+  color: #5267df;
+}
+
+.accordion-open .accordion-icon {
+  color: #fa5959;
+  transform: rotate(180deg);
+}
+
+.form-error .input-container {
+  padding: 2px;
+}
+
+.form-error .error-text {
+  display: block;
+}
+
+.form-error .error-text {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .bg-pattern {
+    background-image: url('/section-pattern-xl.svg');
+    background-size: 1110px 203px;
+  }
+
+  .hero-background {
+    background-position: right -450px top 52px;
+  }
+
+  .section-background {
+    background-position: left -460px top 35px;
+  }
+}
+
+@media (min-width: 1110px) {
+  .no-scroll {
+    overflow: visible;
+  }
+
+  .hero-background {
+    background-size: auto;
+    background-position: right -800px bottom;
+  }
+
+  .section-background {
+    background-size: auto 352px;
+    background-position: left -762px top 84px;
+  }
+
+  .tab-selected::after {
+    width: 243px;
+    display: none;
+  }
+
+  .tab-buttons::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(calc(var(--current-tab) * 100%));
+    transition: transform 0.2s ease;
+    width: 243px;
+    height: 4px;
+    background-color: #fa5959;
+  }
+}
+
+@media (min-width: 1700px) {
+  .hero-background {
+    background-position: right -650px bottom;
+  }
+
+  .section-background {
+    background-position: left -520px top 84px;
+  }
+}
