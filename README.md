@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://i.imgur.com/oTIDg4M.png)
+![](https://i.imgur.com/EupRxam.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/bookmark-landing-page-using-tailwind-css-upqE_GwLMN](https://www.frontendmentor.io/solutions/bookmark-landing-page-using-tailwind-css-upqE_GwLMN)
+- Live Site URL: [https://fe-bookmark.netlify.app/](https://fe-bookmark.netlify.app/)
 
 ## My process
 
