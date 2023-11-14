@@ -50,7 +50,7 @@
           <img src="/illustration-hero.svg" class="relative w-[92%] max-w-[345px] xl:order-1 xl:w-full xl:max-w-[550px]" alt="Hero illustration" />
           <div class="max-w-[540px] text-center px-8 flex flex-col items-center xl:text-left xl:items-start xl:px-0 xl:mt-[4.375rem]">
             <h1 class="font-medium text-h3 leading-h3 text-dark-blue xl:text-h1 xl:leading-h1">A Simple Bookmark Manager</h1>
-            <p class="mt-4 xl:mt-6">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+            <p class="mt-4 xl:mt-6 max-w-[500px]">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
             <div class="mt-8 flex items-center gap-[0.625rem] text-sm leading-sm font-medium xl:gap-4">
               <a href="#" class="inline-block bg-blue border-[2px] border-blue text-white rounded-sm px-4 py-2 shadow-btn xl:px-6 hover:bg-white hover:text-blue transition-colors">Get it on Chrome</a>
               <a href="#" class="inline-block bg-light-gray text-dark-gray border-[2px] border-light-gray rounded-sm px-4 py-2 shadow-btn xl:px-6 hover:bg-white hover:text-grayish-blue hover:border-grayish-blue transition-colors">Get it on Firefox</a>
@@ -65,9 +65,9 @@
             <p class="xl:mt-4">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
           </div>
           <div role="tablist" class="mt-10 flex flex-col text-dark-gray text-main leading-main tracking-[0.53px] xl:flex-row xl:max-w-[730px] xl:mx-auto xl:border-b-[1px] border-b-line tab-buttons relative" style="--current-tab: 0">
-            <button class="tab tab-selected py-5 border-t-[1px] border-t-line border-b-[1px] border-b-line xl:border-none xl:py-8 flex-1 hover:text-red transition-colors" role="tab" aria-selected="true" aria-controls="tabpanel-0" data-tab="tabpanel-0">Simple Bookmarking</button>
-            <button class="tab py-5 border-b-[1px] border-b-line xl:border-none xl:py-8 flex-1 hover:text-red transition-colors" role="tab" aria-selected="false" aria-controls="tabpanel-1" data-tab="tabpanel-1">Speedy Searching</button>
-            <button class="tab py-5 border-b-[1px] border-b-line xl:border-none xl:py-8 flex-1 hover:text-red transition-colors" role="tab" aria-selected="false" aria-controls="tabpanel-2" data-tab="tabpanel-2">Easy Sharing</button>
+            <button class="tab tab-selected py-5 border-t-[1px] border-t-line border-b-[1px] tracking-[0.5px] border-b-line xl:border-none xl:py-8 flex-1 hover:text-red transition-colors" role="tab" aria-selected="true" aria-controls="tabpanel-0" data-tab="tabpanel-0">Simple Bookmarking</button>
+            <button class="tab py-5 border-b-[1px] tracking-[0.5px] border-b-line xl:border-none xl:py-8 flex-1 hover:text-red transition-colors" role="tab" aria-selected="false" aria-controls="tabpanel-1" data-tab="tabpanel-1">Speedy Searching</button>
+            <button class="tab py-5 border-b-[1px] tracking-[0.5px] border-b-line xl:border-none xl:py-8 flex-1 hover:text-red transition-colors" role="tab" aria-selected="false" aria-controls="tabpanel-2" data-tab="tabpanel-2">Easy Sharing</button>
           </div>
         </div>
         <div class="mt-[4.5rem] px-8 pb-[5.625rem] bg-pattern section-background">
@@ -139,7 +139,7 @@
             <p class="mt-4">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
           </div>
           <div class="mt-16 xl:mt-14">
-            <div class="py-5 border-t-[1px] border-b-[1px] border-line-2">
+            <div class="py-4 border-t-[1px] border-b-[1px] border-line-2">
               <button class="w-full flex justify-between items-center group accordion-button" aria-expanded="false" aria-controls="accordion-panel-1" id="accordion-header-1">
                 <span class="text-dark-blue leading-[2rem] group-hover:text-red transition-colors">What is Bookmark?</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="accordion-icon" width="18" height="12"><path fill="none" stroke="currentColor" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
@@ -150,7 +150,7 @@
                 </div>
               </div>
             </div>
-            <div class="py-5 border-b-[1px] border-line-2">
+            <div class="py-4 border-b-[1px] border-line-2">
               <button class="w-full flex justify-between items-center group accordion-button" aria-expanded="false" aria-controls="accordion-panel-2" id="accordion-header-2">
                 <span class="text-dark-blue leading-[2rem] group-hover:text-red transition-colors">How can I request a new browser?</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="accordion-icon" width="18" height="12"><path fill="none" stroke="currentColor" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
@@ -161,7 +161,7 @@
                 </div>
               </div>
             </div>
-            <div class="py-5 border-b-[1px] border-line-2">
+            <div class="py-4 border-b-[1px] border-line-2">
               <button class="w-full flex justify-between items-center group accordion-button" aria-expanded="false" aria-controls="accordion-panel-3" id="accordion-header-3">
                 <span class="text-dark-blue leading-[2rem] group-hover:text-red transition-colors">Is there a mobile app?</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="accordion-icon" width="18" height="12"><path fill="none" stroke="currentColor" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
@@ -172,7 +172,7 @@
                 </div>
               </div>
             </div>
-            <div class="py-5 border-b-[1px] border-line-2">
+            <div class="py-4 border-b-[1px] border-line-2">
               <button class="w-full flex justify-between items-center group accordion-button" aria-expanded="false" aria-controls="accordion-panel-4" id="accordion-header-4">
                 <span class="text-dark-blue leading-[2rem] group-hover:text-red transition-colors">What about other Chromium browsers?</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="accordion-icon" width="18" height="12"><path fill="none" stroke="currentColor" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
